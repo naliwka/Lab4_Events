@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FinalAction.cs" />
+    <Compile Include="FirstAction.cs" />
+    <Compile Include="IAction.cs" />
+    <Compile Include="NextActionEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondAction.cs" />
+    <Compile Include="ThirdAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
